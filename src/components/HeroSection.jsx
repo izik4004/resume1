@@ -1,7 +1,8 @@
 import { RiMoonFill } from "react-icons/ri";
 import image from "../assets/zik1.jpg"
-// import {X}from "../assets/x.png"
-// import {O} from "../assets/o.png"
+import figma from "../assets/figma.png"
+import X from "../assets/x.png"
+import O from "../assets/o.png"
 
 const HeroSection = () => {
   const navItems = ["Home", "Projects", "About", "content"];
@@ -22,26 +23,20 @@ const HeroSection = () => {
               ))}
               <RiMoonFill />
             </div>
-            <div className="flex justify-between flex-col h-3/5 my-40">
-            <div className="bg-red-500">
-                {/* <img src={X} alt="" className="w-1/2 bg-white"/> */}
+            <div className="flex justify-between flex-col h-3/5 my-24">
+            <div className="">
+                <img src={X} alt="mee" className="w-30"/>
             </div>
-            <div className="bg-red-500 flex">
-              {/* <img src={O} alt="" /> */}
+            <div className="flex justify-end mr-40 ">
+              <img src={O} alt="me" className="w-40  " />
             </div>
             </div>
-            <div className="flex items-center justify-center gap-8 bg-red-500 place-contents-center -mt-20">
-              <div>
-                <span></span>
-                <div className="py-2 px-4 rounded-lg bg-[">figma</div>
-              </div>
-              <div>jkhdljlkjldld</div>
-              <div>jkhdljlkjldld</div>
-              </div>
+            
           </div>
+          
         </div>
 
-        {/* <div className="me  p-20 absolute w-3/4 justify-center gap-12  bg-gradient-to-r from-[#2157F2] to-[#A6BCFA] mx-auto flex items-center ">
+        <div className="me  p-20 absolute w-3/5 justify-center gap-12  bg-gradient-to-r from-[#2157F2] to-[#A6BCFA] mx-auto flex items-center ">
           <div className="w-1/3 flex justify-center">
             <div className="bg-white rounded-full p-2">
             <img src={image} alt="hi" className="w-28 rounded-full object-fit" />
@@ -58,7 +53,7 @@ const HeroSection = () => {
             </p>
             <button className="py-4 px-6 bg-blue-500">Download cv</button>
           </div>
-        </div> */}
+        </div>
         
       </div>
      
